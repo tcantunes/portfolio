@@ -73,11 +73,8 @@
   color: #ff3d00;
 }
 
-.imagem {
-  background-color: yellow;
-  width: 350px;
-  height: 400px;
-  border-radius: 10px;
+.imagem{
+  padding-top: 5px;
 }
 
 .container-sobre {
@@ -131,4 +128,6 @@ footer img {
 
 .footer-texto {
   color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }

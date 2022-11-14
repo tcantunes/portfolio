@@ -52,6 +52,7 @@
 
 .main {
   background-color: #f5f5f5;
+  padding-bottom: 41px;
 }
 
 .container-principal {
@@ -103,13 +104,16 @@
 
 .container-secundario {
   width: 100%;
+  height: auto;
   padding: 12px;
   background-color: #f8f8f8;
+  padding-bottom: 41px;
 }
 
 .container-atribuicao h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 70px;
+  font-weight: 400;
   font-weight: normal;
 }
 
@@ -142,10 +146,10 @@
 }
 
 .rede-social h4 {
-  margin: 10px;
+  margin: 0 35px 0 7px;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 400;
   color: #000;
 }
 
@@ -157,11 +161,13 @@
 .habilidades {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 10px;  
 }
 
 .habilidades p{
-  margin-right: 0 10px;
+  margin-right: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
 }
 
 .circulo {
@@ -192,7 +198,6 @@
 footer {
   background-color: #29b2b1;
   height: 80px;
-  margin-top: 41px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -204,5 +209,7 @@ footer img {
 
 .footer-texto {
   color: #f5f5f5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 

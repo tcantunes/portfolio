@@ -1,0 +1,208 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: none;
+}
+
+.navbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #29b2b1;
+  text-transform: uppercase;
+}
+
+.logo {
+  color: #054442;
+  padding: 5px 15px;
+}
+
+.menu a {
+  font-size: 19px;
+  margin: 15px;
+  color: #054442;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu a:hover {
+  color: #ffbc11;
+}
+
+.botao-navbar {
+  width: 140px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #ffbc11;
+  color: #054442;
+  font-weight: bold;
+  box-shadow: inset 4px 4px 6px rgba(217, 156, 0, 0.7),
+    inset -4px -4px 6px #d99c00;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+}
+
+.botao-navbar:active {
+  box-shadow: none;
+  filter: none;
+  background-color: #007272;
+  color: #ffbc11;
+}
+
+.main {
+  background-color: #f5f5f5;
+}
+
+.container-principal {
+  display: flex;
+  width: 100%;
+}
+
+.container-esquerda {
+  width: 100%;
+}
+
+.container-educacao,
+.container-expertise,
+.container-experiencia {
+  padding: 30px;
+}
+
+.container-educacao h1,
+.container-expertise h1,
+.container-experiencia h1 {
+  color: #3a3a3a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.container-educacao p,
+.container-experiencia p {
+  color: #3a3a3a;
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container-educacao span,
+.container-expertise span,
+.container-experiencia span {
+  color: #054442;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container-expertise p {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container-secundario {
+  width: 100%;
+  padding: 12px;
+  background-color: #f8f8f8;
+}
+
+.container-atribuicao h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  font-weight: normal;
+}
+
+.container-atribuicao span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.profissao {
+  width: 440px;
+  height: 61px;
+  border-radius: 8px;
+  background-color: #29b2b1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profissao h2 {
+  color: #f0f0f0;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 25px;
+}
+
+.rede-social {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.rede-social h4 {
+  margin: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+.skills h1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.habilidades {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.habilidades p{
+  margin-right: 0 10px;
+}
+
+.circulo {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #29b2b1;
+  margin: 2px;
+}
+
+.circulo-opacidade{
+  background-color: #94d9d8;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+}
+
+.circulo-branco{
+  background-color: #f5f5f5;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  margin: 2px;
+}
+
+footer {
+  background-color: #29b2b1;
+  height: 80px;
+  margin-top: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer img {
+  margin-right: 20px;
+}
+
+.footer-texto {
+  color: #f5f5f5;
+}
+

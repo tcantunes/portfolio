@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  border: none;
+}
+
+.navbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #29b2b1;
+  text-transform: uppercase;
+}
+
+.logo {
+  color: #054442;
+  padding: 5px 15px;
+}
+
+.menu a {
+  font-size: 19px;
+  margin: 15px;
+  color: #054442;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu a:hover {
+  color: #ffbc11;
+}
+
+.botao-navbar {
+  width: 140px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #ffbc11;
+  color: #054442;
+  font-weight: bold;
+  box-shadow: inset 4px 4px 6px rgba(217, 156, 0, 0.7),
+    inset -4px -4px 6px #d99c00;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
+}
+
+.botao-navbar:active {
+  box-shadow: none;
+  filter: none;
+  background-color: #007272;
+  color: #ffbc11;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.texto-contato {
+  padding: 30px;
+}
+
+.texto-contato h1 {
+  color: #ff3d00;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.texto-contato h3 {
+  color: #3a3a3a;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container-principal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #29b2b1;
+  width: 1142px;
+  height: 575px;
+  border-radius: 30px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.container-form {
+  width: 573px;
+  height: 491px;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+}
+
+.container-form form {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  width: 90%;
+}
+
+.container-form label {
+  padding: 10px;
+}
+
+.container-form input,
+.container-form select {
+  height: 35px;
+  background: #f0f0f0;
+  box-shadow: inset -3px -3px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #ff3d00;
+  opacity: 30%;
+}
+
+.container-form textarea {
+  background: #f0f0f0;
+  box-shadow: inset -3px -3px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.botao-submit {
+  width: 120px;
+  height: 38px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: #ffbc11 !important;
+  color: #f5f5f5;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.botao-submit:active {
+  box-shadow: none;
+  filter: none;
+  background-color: #ff3d00 !important;
+}
+
+footer {
+  background-color: #29b2b1;
+  height: 80px;
+  margin-top: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer img {
+  margin-right: 20px;
+}
+
+.footer-texto {
+  color: #f5f5f5;
+}

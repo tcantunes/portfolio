@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/contato.css" />
+    <link rel="stylesheet" href="../css/transicao.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfólio</title>
+  </head>
+  <body>
+    <div class="transicao transicao-3 ativo">
+      <img src="../image/logo.png" alt="">
+    </div>
+
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="../image/logo.png" alt="logo">
+        </div>
+        <div class="menu">
+          <a href="../index.html" class="ativo">Home</a>
+          <a href="../paginas/curriculo.html">Currículo</a>
+          <a href="../paginas/portfolio.html">Portfólio</a>
+        </div>
+        <div>
+          <button class="botao-navbar" onclick="encaminhaContato2()">
+            CONTATO
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="texto-contato">
+        <h1>Deseja falar comigo?</h1>
+        <h3>Deixe seus dados abaixo e logo entrarei em contato!</h3>
+      </div>
+      <div class="container-principal">
+        <div class="container-form">
+          <form action="" method="get">
+            <label for="nome">Nome</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Digite aqui"
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="nome"
+              placeholder="Digite aqui"
+            />
+            <label for="select">Estado</label>
+            <select id="select" name="select">
+              <option value="" selected><p class="option-selected">Escolha aqui</p></option>
+              <option value="1">AC</option>
+              <option value="2">AL</option>
+              <option value="3">AP</option>
+              <option value="4">AM</option>
+              <option value="5">BA</option>
+              <option value="6">CE</option>
+              <option value="7">DF</option>
+              <option value="8">ES</option>
+              <option value="9">GO</option>
+              <option value="10">MA</option>
+              <option value="11">MT</option>
+              <option value="12">MS</option>
+              <option value="13">MG</option>
+              <option value="14">PA</option>
+              <option value="15">PB</option>
+              <option value="16">PR</option>
+              <option value="17">PE</option>
+              <option value="18">PI</option>
+              <option value="19">RJ</option>
+              <option value="20">RN</option>
+              <option value="21">RS</option>
+              <option value="22">RR</option>
+              <option value="23">SC</option>
+              <option value="24">SP</option>
+              <option value="25">SE</option>
+              <option value="26">SE</option>
+            </select>
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              name="mensagem"
+              id="mensagem"
+              cols="30"
+              rows="5"
+              placeholder="Digite aqui"
+            ></textarea>
+            <input type="submit" value="Enviar" class="botao-submit" />
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <img src="../image/footer.png" alt="logo" />
+      <div class="footer-texto">
+        <h1>Todos os direitos reservados.</h1>
+        <h1>Tainá Narcizo - 2022</h1>
+      </div>
+    </footer>
+    <script src="../script/index.js"></script>
+    <script src="../script/transicao.js"></script>
+  </body>
+</html>
